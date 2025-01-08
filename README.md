@@ -4,9 +4,7 @@ This is my solution to the [QR Code Component Challenge on Frontend Mentor](http
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
@@ -18,16 +16,10 @@ This is my solution to the [QR Code Component Challenge on Frontend Mentor](http
 
 ## Overview
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Here’s a preview of the solution. I captured this screenshot using my browser's screenshot tool for an accurate representation of the final design.
-
 ### Links
 
-- [Solution Code](https://github.com/yourusername/qr-code-component)
-- [Live Demo](https://yourusername.github.io/qr-code-component)
+- [Solution Code](https://github.com/LamprosVasilakos/QR-CODE-Component)
+- [Live Demo](https://lamprosvasilakos.github.io/QR-CODE-Component/)
 
 ---
 
@@ -63,5 +55,5 @@ In future projects, I want to:
 
 ### Author
 
-- GitHub - [@yourusername](https://github.com/yourusername)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [@LamprosVasilakos](https://github.com/LamprosVasilakos)
+- Frontend Mentor - [@LamprosVasilakos](https://www.frontendmentor.io/profile/LamprosVasilakos)

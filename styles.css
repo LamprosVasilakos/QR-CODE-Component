@@ -2,11 +2,14 @@
 
 :root {
   /* === COLORS === */
+
   --white-color: hsl(0, 0%, 100%);
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
+
   /* === TYPOGRAPHY === */
+
   --font-family: "Outfit", sans-serif;
   --text-bold: 700;
   --text-regular: 400;
@@ -70,6 +73,7 @@ ol {
   max-width: 320px;
   margin-inline: auto;
   border-radius: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .qr-code {
