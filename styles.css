@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  /* === COLORS === */
+  --white-color: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  /* === TYPOGRAPHY === */
+  --font-family: "Outfit", sans-serif;
+  --text-bold: 700;
+  --text-regular: 400;
+  --font-size-header: 22px;
+  --font-size-para: 15px;
+  --line-height-header: 1.2;
+  --line-height-para: 1.4;
+  --para-spacing: 0.2px;
+}
+
+/* === GLOBAL RESETS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-family);
+  background-color: var(--slate-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img,
+picture,
+video,
+canvas {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.card {
+  padding: 16px 16px 40px 16px;
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  margin-inline: auto;
+  border-radius: 16px;
+}
+
+.qr-code {
+  width: 288px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+
+.card-header,
+.card-text {
+  text-align: center;
+}
+
+.card-header {
+  font-size: var(--font-size-header);
+  font-weight: var(--text-bold);
+  color: var(--slate-900);
+  line-height: var(--line-height-header);
+  padding-bottom: 24px;
+}
+
+.card-text {
+  font-size: var(--font-size-para);
+  font-weight: var(--text-regular);
+  color: var(--slate-500);
+  line-height: var(--line-height-para);
+  letter-spacing: var(--para-spacing);
+  padding-inline: 8px;
+}
